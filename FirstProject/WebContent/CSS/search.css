@@ -1,0 +1,35 @@
+.mainSearch{
+	height: 100%;
+	display: inline-block;
+}
+.mainSearchFirst{
+	height: 100%;
+	float: left;
+	border-right: 3px solid black;
+	padding-right: 20px; 
+}
+.searchResult{
+	height: 100%;
+	margin-left: 20px;
+	float: left;
+}
+table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	table-border: 1px solid black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+tr{
+	padding:5px;
+}
+.submit{
+	text-align: center;
+}
+#submit{
+	background-color:gray;
+	border: 0px;
+	padding: 10px;
+	color: white;
+	margin: 5px;
+}

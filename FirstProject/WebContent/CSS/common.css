@@ -1,0 +1,54 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	margin: 10px;
+	font-family: 'Fahkwang', sans-serif;
+	color: gray;
+}
+h2{
+	font-family: 'Fahkwang', sans-serif;
+	color: black;
+}
+
+h3{
+	font-family: 'Fahkwang', sans-serif;
+	color: black;
+	margin:5px;
+}
+nav{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.nav-ul{
+	text-align: left;
+	background-color: #4CAF50;
+}
+
+.nav-ul li {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	color: white;
+	padding: 10px;
+}
+
+.nav-ul li:hover{
+	cursor: pointer;
+	background-color: #000000;
+}
+.data{
+	margin:10px;
+	padding: 10px;
+	width: 100%;
+}
+
+
+
