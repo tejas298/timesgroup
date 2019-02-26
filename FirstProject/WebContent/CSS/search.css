@@ -16,12 +16,23 @@
 table{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	border-collapse: collapse;
 	table-border: 1px solid black;
 	font-family: 'Montserrat', sans-serif;
 }
 
 tr{
 	padding:5px;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid;
+    padding: inherit;
+    text-align: center;
 }
 .submit{
 	text-align: center;
@@ -32,4 +43,31 @@ tr{
 	padding: 10px;
 	color: white;
 	margin: 5px;
+}
+
+.fourthMain{
+	width:100%;
+}
+.mainChild{
+	width: 22%;
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+label{
+	font-family: 'Montserrat', sans-serif;
+}
+.fourthResult{
+	width: 100%;
+	float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+img{
+	width:20px;
+	height: 20px;
+	cursor: pointer;
+}
+img[disabled]{
+	cursor: default;
 }

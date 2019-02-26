@@ -12,6 +12,9 @@
   </script>
   <script type="text/javascript">
   $(document).ready(function(){
+
+		 $('.searchNav').css('background-color','#000000');
+	  
 	  	$(".data").load("search.jsp");
 	  	
 	  	$(".searchNav").click(function(){
@@ -36,7 +39,15 @@
 	  	
 	  	
 	  });
+  $(document).ready(function(){
+	  $('li').click(function(){
+		 $('li').css('background-color','#4CAF50');
+		 $(this).css('background-color','#000000');
+	  });
+  });
   
+  $(document).load(function(){ 
+  });
   
   </script>
 </head>
